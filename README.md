@@ -1,9 +1,13 @@
-Maven Demo
-==========
+Maven Aliyun Repository Demo
+============================
 
-A very simple maven project demo.
+How to use aliyun repository in a maven project to speed up the download.
+
+Test:
 
 ```
-mvn clean install
+mvn dependency:purge-local-repository -X
 ```
+
+Check the urls it uses.
 
